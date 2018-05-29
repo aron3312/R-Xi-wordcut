@@ -1,0 +1,255 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #ad1d28;
+}
+
+body {
+ height:100%;
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+#x1{
+   color: #efefef;
+  display: inline-block;
+  font-size: 4em;
+  opacity: 1;
+  transition: 600ms opacity, 600ms padding;
+  min-width: 50px;
+  text-align: center;
+padding: 0 20px;
+}
+
+#x2{
+   color: #efefef;
+  display: inline-block;
+  font-size: 4em;
+  opacity: 1;
+  transition: 600ms opacity, 600ms padding;
+  min-width: 50px;
+  text-align: center;
+padding: 0 20px;
+}
+
+table {
+align: center;
+}
+
+th {
+    background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+  }
+td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+  }
+
+
+
+
+#caption{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+
+.chinesefont{
+font-family: 'cwTeXYen', sans-serif;
+font-size: 1.5em;
+}
+
+.jumbotron {
+align: center;
+}
+
+/*Two Banner*/
+#banner {
+  width: 100%;
+  height: 400px;
+  padding-top: 60px;
+  background-image: url(https://a.bbkz.net/guide/images/7/74/%E4%B8%AD%E5%9C%8B%E5%9C%8B%E6%97%97.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: table;
+  color: #666;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+}
+
+#banner2 {
+  width: 100%;
+  height: 400px;
+  padding-top: 60px;
+  background-image: url(http://jhsjk.people.cn/images/d2top.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: table;
+  color: #666;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -ms-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+}
+
+.headline {
+  padding-top: 30px;
+}
+.headline h2 {
+  font-size: 50px;
+  padding-top: 60px;
+  font-weight: bold;
+}
+div#banner.smaller {
+  opacity: 0;
+}
+div#banner2.smaller {
+  opacity: 0;
+}
+.center {
+  text-align: center;
+}
+
+
+/*recommand link hover*/
+.links {
+  *zoom: 1;
+  padding: 50px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+.links:before, .links:after {
+  content: "";
+  display: table;
+}
+.links:after {
+  clear: both;
+}
+.link-effect-13 a {
+  color: #797878;
+  margin: 0 20px;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  -moz-transition: ease-out 0.3s 0.3s;
+  -o-transition: ease-out 0.3s 0.3s;
+  -webkit-transition: ease-out 0.3s;
+  -webkit-transition-delay: 0.3s;
+  transition: ease-out 0.3s 0.3s;
+}
+.link-effect-13 a span::before {
+  width: 100%;
+  height: 2px;
+  background: white;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.link-effect-13 a span::after {
+  width: 100%;
+  height: 2px;
+  background: white;
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.link-effect-13 a::before {
+  width: 2px;
+  height: 100%;
+  background: red;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.link-effect-13 a::after {
+  width: 2px;
+  height: 100%;
+  background: white;
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.link-effect-13 a:hover {
+  color: white;
+}
+.link-effect-13 a:hover::before, .link-effect-13 a:hover::after {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.link-effect-13 a:hover span::before, .link-effect-13 a:hover span::after {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
